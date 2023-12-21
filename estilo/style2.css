@@ -17,9 +17,9 @@
      --cor4: #021523;
      --cor5: #F86734;
       
-     --fonte-padrão:Arial, Verdana, Helvetica, Sans-serif;
+     --fonte-padrão: Arial, Verdana, Helvetica, Sans-serif;
      --fonte-destaque: 'Bebas Neue', sans-serif;
-     --fonte-android:'Android', sans-serif;
+     --fonte-android: 'Android', sans-serif;
 }
 
    
@@ -82,18 +82,23 @@ nav > a:hover {
 
 main {
      background-color: var(--cor0);
-     margin: 0px 100px;
+     margin: auto; /*centralizar o main*/
+     min-width: 300px;
+     max-width: 1000px;
+
 }
 
-main img {
-     width: 75%;
-     margin: 20px 125px;
+main  h1 {
+     font-family: var(--fonte-android);
+}
 
-     
- }
- 
+main > article > picture > img {
+     width: 100%;
+}
+
 
 article {
      text-align: justify;
      padding: 0px 15px;
+     font-family: var(--fonte-padrão);
 }
