@@ -90,6 +90,17 @@ main {
 
 main  h1 {
      font-family: var(--fonte-android);
+     color: var(--cor3);
+     font-weight: normal;
+     padding-top: 10px;
+}
+
+main p {
+     margin: 10px 0px;
+     text-align: justify;
+     text-indent: 25px; /*espaço no começo dos paragrafos*/
+     font-size: 1.0em;
+     line-height: 1.5em; /*espaçamento entre linhas*/
 }
 
 main > article > picture > img {
