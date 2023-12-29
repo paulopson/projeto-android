@@ -57,11 +57,11 @@ header > p {
      font-weight: normal;
      font-style: var(--fonte-padrão); 
      text-shadow: 2px 2px rgba(0, 0, 0, 0.356); 
-     }
+}
 
 nav {
-background-color: var(--cor4);
-padding: 15px;
+     background-color: var(--cor4);
+     padding: 15px;
 
 }
 
@@ -85,6 +85,7 @@ main {
      margin: auto; /*centralizar o main*/
      min-width: 300px;
      max-width: 1000px;
+     border-radius: 0px 0px 10px 10px;
 
 }
 
@@ -104,8 +105,12 @@ main p {
      line-height: 1.5em; /*espaçamento entre linhas*/
 }
 
-main > article > picture > img {
-     width: 100%;
+main  img {
+     width: 75%;
+     display: block;
+     margin: auto;
+     border-radius: 10px;
+
 }
 
 main > article > p > a {
@@ -140,8 +145,7 @@ aside > h1 {
      font-family: var(--fonte-android);
      color: var(--cor4);
      font-weight: normal;
-
-     border-radius: 10px 10px 0px 0px ;
+     background-image: linear-gradient(to right, var(--cor3), var(--cor0));
  
 }
 
